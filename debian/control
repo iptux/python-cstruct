@@ -1,0 +1,16 @@
+Source: python-cstruct
+Section: python
+Priority: optional
+Maintainer: Tommy Alex <iptux7@gmail.com>
+Build-Depends: debhelper (>= 9), dh-python, python3-all
+Standards-Version: 0.1
+X-Python3-Version: >= 3.2
+Homepage: https://github.com/iptux/python-cstruct
+
+Package: python3-cstruct
+Architecture: all
+Depends: ${python3:Depends}, ${misc:Depends}
+Description: Another c-struct like object support in Python
+ Another c-struct like object support in Python
+ .
+ This is the Python 3 version of the package.

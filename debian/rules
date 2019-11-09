@@ -1,0 +1,9 @@
+#! /usr/bin/make -f
+
+# Never distribute source control meta information
+export DH_ALWAYS_EXCLUDE=.svn:.git
+
+export PYBUILD_NAME=cstruct
+
+%:
+	dh $@ --with python3 --buildsystem=pybuild
